@@ -25,10 +25,6 @@ class ChatBot(QMainWindow):
         self.show()
 
 
-class GptConnect():
-    pass
-
-
 app = QApplication(sys.argv)
 
 main_window = ChatBot()
